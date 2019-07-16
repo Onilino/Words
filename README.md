@@ -18,19 +18,20 @@ ___
 ## Description
 
 Binary : ==words==
+
 | Parametrer | Description |
 | ------ | ----------- |
 | `-h` `--help`| take a look to the usage |
 | `-imin` | specify the minimum word's length |
 | `-imax` | specify the maximum word's length |         
 
-+ If you specify a ==_== charactere instead of a letter, the script will only find words matching with the letters given in parameters and this "void", with the **same** length as the number of 'letters' parameters.
++ If you specify a `_` charactere instead of a letter, the script will only find words matching with the letters given in parameters and this "void", with the **same** length as the number of 'letters' parameters.
 
 #### Exemples
 | In| Out |
 | -- | --- |
-| `./words L _ R _ E` |  ==LARGE== ==LARME== ==LIRIE== |
-| `./words M _ R A _ E` | ==MIRAGE== ==MORALE== ==MURALE==  | 
+| `./words L _ R _ E` |  `LARGE` `LARME` `LIRIE` |
+| `./words M _ R A _ E` | `MIRAGE` `MORALE` `MURALE`  | 
 
 
 ___

@@ -17,7 +17,7 @@ ___
 
 ## Description
 
-Binary : ==words==
+Binary : `words`
 
 | Parametrer | Description |
 | ------ | ----------- |
